@@ -47,13 +47,13 @@ Cada API arranca con 5 registros de ejemplo cargados en memoria.
 mvn spring-boot:run
 ```
 
-La aplicación queda disponible en `http://localhost:8080`.
+La aplicación queda disponible en `http://localhost:8081` (puerto configurado en `application.properties`; se usa 8081 en vez del 8080 por defecto porque en este equipo el 8080 está reservado por un servicio de Windows).
 
 También se puede abrir la carpeta `spring-apis-lab/` directamente en Visual Studio Code (con el Spring Boot Extension Pack) y ejecutar `ApisApplication.java` desde el Spring Boot Dashboard o el botón "Run".
 
 ## Probar con Postman
 
-Importar la colección incluida en [`postman/LaboratorioV-APIs.postman_collection.json`](postman/LaboratorioV-APIs.postman_collection.json). Contiene una carpeta por recurso (`01 Productos` … `10 Pedidos`) con los 6 requests de cada uno, usando la variable `{{baseUrl}}` (por defecto `http://localhost:8080`).
+Importar la colección incluida en [`postman/LaboratorioV-APIs.postman_collection.json`](postman/LaboratorioV-APIs.postman_collection.json). Contiene una carpeta por recurso (`01 Productos` … `10 Pedidos`) con los 6 requests de cada uno, usando la variable `{{baseUrl}}` (por defecto `http://localhost:8081`).
 
 Ejemplo de `PATCH` (actualización parcial) en Tareas:
 
