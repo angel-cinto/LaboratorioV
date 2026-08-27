@@ -9,8 +9,8 @@ Desarrollar 10 APIs REST independientes utilizando Spring Boot y Maven, aplicand
 
 ## Tecnologías
 
-- Java 17 (compilado con `maven.compiler.release=17`)
-- Spring Boot 3.3.5 (`spring-boot-starter-web`)
+- Java 25 (compilado con `maven.compiler.release=25`)
+- Spring Boot 3.5.16 (`spring-boot-starter-web`)
 - Maven
 
 ## APIs incluidas
